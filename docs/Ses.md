@@ -2,8 +2,8 @@ Amazon SES
 ==========
 
 This transport layer forms the coupling between Zend\Mail and the Email Service Provider [Amazon SES](http://aws.amazon.com/ses/).
-The transport is a drop-in component and can be used to send email messages with Cc & Bcc addresses (please note that
-currently, Amazon SES does not support attachments).
+The transport is a drop-in component and can be used to send email messages with Cc & Bcc addresses (p̶l̶e̶a̶s̶e̶ ̶n̶o̶t̶e̶ ̶t̶h̶a̶t̶
+̶c̶u̶r̶r̶e̶n̶t̶l̶y̶,̶ ̶A̶m̶a̶z̶o̶n̶ ̶S̶E̶S̶ ̶d̶o̶e̶s̶ ̶n̶o̶t̶ ̶s̶u̶p̶p̶o̶r̶t̶ ̶a̶t̶t̶a̶c̶h̶m̶e̶n̶t̶s̶). Attachment support has been added to SES in 2011
 
 SlmMail provides a very thin wrapper around the official AWS client (you may also use the official client directly
 if you want). However, using SlmMail has the advantage that you can switch very quickly from one provider to another.
